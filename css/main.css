@@ -13517,23 +13517,6 @@ header .avatar-container i {
   color: #ff7f00;
 }
 
-.profile-options-modal .profile-options-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.profile-options-modal .profile-options-list li a {
-  display: block;
-  padding: 10px 10px;
-  color: #495057;
-}
-.profile-options-modal .profile-options-list li a i {
-  display: inline-block;
-  width: 18px;
-  text-align: center;
-  margin-right: 5px;
-}
-
 .main {
   padding-top: 80px;
 }
@@ -13567,6 +13550,9 @@ header .avatar-container i {
   margin-bottom: 20px;
   border-radius: 4px;
   overflow: hidden;
+}
+.product-list-container ul li a {
+  text-decoration: none;
 }
 .product-list-container ul li .product-image img {
   width: 100%;
